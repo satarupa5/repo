@@ -17,3 +17,5 @@ Following is a list
   ```shell
   import numpy as np
   ```
+  This is just for checking the functionality of git itself, rather than a data science project.
+  Really, its just for checking git.
