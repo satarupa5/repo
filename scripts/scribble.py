@@ -28,9 +28,11 @@ df2.sort_values(by = 'B')
 #selecting cols as a series, both codes are equivaent
 df2.A
 df2['A']
-#slicing cols-- shows first 4 cols including index cols
+#slicing cols-- shows first 3 cols including index cols
 df2[0:3]
 #shows all the rows between the mentioned index values. Endpoints are included.
 df['20130102' : '20130104']
+
+
 
 
