@@ -21,3 +21,16 @@ df2.columns
 df2.describe()
 #shows the numpy data in the same order
 df2.values
+#the column headings are sorted in ascending/descending order
+df2.sort_index(axis = 1, ascending = False)
+#sorting by values
+df2.sort_values(by = 'B')
+#selecting cols as a series, both codes are equivaent
+df2.A
+df2['A']
+#slicing cols-- shows first 4 cols including index cols
+df2[0:3]
+#shows all the rows between the mentioned index values. Endpoints are included.
+df['20130102' : '20130104']
+
+
